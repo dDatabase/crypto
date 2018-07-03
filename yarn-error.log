@@ -1,0 +1,61 @@
+Arguments: 
+  /Users/thejoker/.nvm/versions/node/v10.5.0/bin/node /usr/local/bin/yarn publish
+
+PATH: 
+  /usr/local/opt/openssl/bin:/Users/thejoker/.nvm/versions/node/v10.5.0/bin:/usr/local/opt/postgresql@9.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Users/thejoker/.rvm/bin:/Users/thejoker/.rvm/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  10.5.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "@ddatabase/crypto",
+    "version": "0.1.2",
+    "description": "dDatabase Cryptography Library For dDatabase Keys.",
+    "contributors": [
+      "Jared Rice Sr. <jared@dwebs.io>",
+      "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+    ],
+    "main": "index.js",
+    "dependencies": {
+      "buffer-alloc-unsafe": "^1.1.0",
+      "buffer-from": "^1.1.0",
+      "sodium-universal": "^2.0.0",
+      "uint64be": "^2.0.2"
+    },
+    "devDependencies": {
+      "standard": "^11.0.1",
+      "tape": "^4.9.1"
+    },
+    "scripts": {
+      "test": "standard && tape test.js"
+    },
+    "publishConfig": {
+      "access": "public"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:128791:13)
+      at Interface.emit (events.js:182:13)
+      at Interface._ttyWrite (readline.js:783:16)
+      at ReadStream.onkeypress (readline.js:168:10)
+      at ReadStream.emit (events.js:182:13)
+      at emitKeys (internal/readline.js:422:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1022:36)
+      at ReadStream.emit (events.js:182:13)
+      at addChunk (_stream_readable.js:283:12)
